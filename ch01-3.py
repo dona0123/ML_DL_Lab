@@ -44,7 +44,7 @@ print("테스트 데이터 점수:", kn.score(X_test, y_test))
 # 새로운 데이터 예측
 print("새 데이터 예측 결과:", kn.predict([[30, 600]]))
 
-# n_neighbors=49 모델
-kn49 = KNeighborsClassifier(n_neighbors=49)
-kn49.fit(X_train, y_train)
-print("n_neighbors=49 모델 점수:", kn49.score(X_test, y_test))
+# n_neighbors=39 모델
+kn39 = KNeighborsClassifier(n_neighbors=39)
+kn39.fit(X_train, y_train)
+print("n_neighbors=39 모델 점수:", kn39.score(X_test, y_test))
