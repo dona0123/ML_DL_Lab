@@ -132,7 +132,3 @@ print(lasso.score(test_scaled, test_target)) # 0.9824470598706695 출력 -> 98% 
 
 # 라쏘 모델의 계수 출력
 print(np.sum(lasso.coef_ == 0)) # 40 출력 -> 55개의 특성 중 40개의 특성이 0으로 변환됨
-
-
-
-
